@@ -2,10 +2,27 @@
 <html>
 	<head>
 		<title> I AM TOM ENGLISH | CREATIVE LEARNER </title>
+		  <style>
+			    /* Prevents slides from flashing */
+			    #slides {
+			      display:none;
+			    }
+  			</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link  href="fotorama.css" rel="stylesheet">
+		<script src="fotorama.js"></script> 
 		<script src="sitejs.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Dosis:300" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="font-awesome.min.css">
+			  <script>
+			    $(function(){
+			      $("#slides").slidesjs({
+			        width: 400,
+			        height: 200
+			      });
+			    });
+			  </script>
 	</head>
 	<body>
 		<div class="site-navigation">
@@ -45,7 +62,11 @@
 		</div>
 		<div id="examples">
 			<h2>HERE IS WORK</h2>
-			<span>Photos and screenshots here.</span>
+			  <div class="fotorama">
+			  	<img src="img/image_1.jpg">
+			  	<img src="img/image_2.jpg">
+			  	<img src="img/image_3.jpg">
+			</div>
 		</div>
 		<div id ="footer"><h2>CONNECT WITH ME</h2></div>
 
