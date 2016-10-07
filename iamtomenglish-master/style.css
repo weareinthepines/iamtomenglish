@@ -1,0 +1,122 @@
+body, html {
+    height: 100%;
+    background: #333;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+span, p {
+    font-family: 'Dosis', sans-serif;
+}
+
+#background_cycler{padding:0;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
+#background_cycler img{position:absolute;left:0;top:0;width:100%;z-index:1}
+#background_cycler img.active{z-index:3}
+
+.site-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.site-navigation li {
+    float: right;
+}
+
+.site-navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: x-large;
+}
+
+.site-navigation li a:hover {
+    background-color: #111;
+}
+
+#parallax {
+    background-image: url('midnight.jpg');
+    height: 80%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+#parallax h1,h3 {
+    color: white;
+    margin: 0;
+    left: 5%;
+    display: block;
+    position: relative;
+    top: 30%;
+    text-align: left;
+}
+
+#parallax h1 {
+    font-size: x-large;
+}
+
+#info p {
+    margin: 0% 5%;
+    height: 25vh;
+
+}
+
+#skills {
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 35vh;
+
+}
+
+.table {
+    list-style-type: none;
+    font-family: 'Dosis', sans-serif;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#examples {
+    clear: both;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+
+#footer li {
+    display: inline;
+    padding-right: 2%;
+
+}
+
+#footer li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footer li a:hover {
+    color: grey;
+}
+
