@@ -15,7 +15,6 @@ span, p {
 
 #wrapper {
     margin: 0 auto;
-    width: 100%;
 }
 
 #background_cycler{padding:0;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
