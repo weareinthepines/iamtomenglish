@@ -22,6 +22,19 @@ span, p {
 #background_cycler img{position:absolute;left:0;top:0;width:100%;z-index:1}
 #background_cycler img.active{z-index:3}
 
+#title {
+    float: left;
+}
+
+#title h1,h3 {
+    color: #76323F;
+    margin: 0;
+    display: block;
+    position: relative;
+    text-align: left;
+    text-shadow: 2px 2px grey;
+}
+
 .site-navigation ul {
     list-style-type: none;
     margin: 0;
@@ -54,16 +67,6 @@ span, p {
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
-}
-
-#parallax h1,h3 {
-    color: #76323F;
-    margin: 0;
-    left: 5%;
-    display: block;
-    position: relative;
-    top: 30%;
-    text-align: left;
 }
 
 #parallax h1 {
